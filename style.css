@@ -1,28 +1,26 @@
 body {
     margin: 0px;
     height: 100vh;
+    background-color: blueviolet;
     display: flex;
     background-image: url(./images/Dark-Forest-Background-Desktop.jpg);
     background-size: cover;
     backdrop-filter: blur(3px);
+    justify-content: center;
+
 }
 
-
-
-.container {
-    display: flex;
-    align-items: center;
-    justify-items: center;
-    margin: auto;
-}
 
 .cards {
-    height: 366px;
-    width: 250px;
+    width: 20%;
     margin: 15px;
     background-color: #f9f4ec;
     cursor: pointer;
     transition: 200ms;
+    position: relative;
+    top: 23%;
+    position: relative;
+    align-self: baseline;
 }
 
 .cards:hover {
@@ -32,8 +30,8 @@ body {
 
 
 .image-container {
-    height: 155px;
-    width: 155px;
+    width: 61%;
+    aspect-ratio: 1/1;
     border-radius: 100%;
     display: flex;
     justify-self: center;
@@ -48,7 +46,7 @@ img {
 
 #card3 img {
     position: relative;
-    top: 38px;
+    top: 27%;
 }
 
 p {
@@ -57,10 +55,31 @@ p {
 }
 .name {
     font-size: 2em;
-    margin-top: 48px;
+    margin-top: 62px;
 }
 
 .role {
     margin-top: -18px;
     color: dimgray;
+    margin-bottom: 33px;
+}
+
+@media (max-width: 1016px) {
+    .name {
+        font-size: 24px;
+    }
+    .role {
+        font-size: 14px;
+        margin-top: -8px;
+    }
+}
+
+@media (max-width:766px) {
+    .name {
+        font-size: 16px;
+    }
+    .role {
+        margin-top: 10px;
+        font-size: 14px;
+    }
 }
