@@ -1,7 +1,6 @@
 body {
     margin: 0px;
     height: 100vh;
-    background-color: blueviolet;
     display: flex;
     background-image: url(./images/Dark-Forest-Background-Desktop.jpg);
     background-size: cover;
