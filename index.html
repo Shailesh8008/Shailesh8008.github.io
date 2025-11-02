@@ -8,8 +8,23 @@
       body {
         font-family: sans-serif;
       }
+      main {
+        display: flex;
+        flex-wrap: wrap;
+        border: 1px solid;
+        max-width: fit-content;
+      }
+      div {
+        padding-right: 0.6rem;
+      }
+      .frontend {
+        border-right: 1px solid;
+      }
       h1 {
         justify-self: center;
+      }
+      h3 {
+        margin-left: 1.8rem;
       }
       li {
         margin: 0.5rem;
@@ -28,123 +43,152 @@
           font-size: 1.2rem;
         }
       }
+      @media (max-width: 579px) {
+        .frontend {
+          width: 100%;
+          border-right: 0;
+          border-bottom: 1px solid;
+        }
+      }
     </style>
   </head>
   <body>
     <h1>Welcome to the Homepage</h1>
     <h2>My Learnings:</h2>
-    <ol>
-      <li>
-        <a href="https://github.com/Shailesh8008/TimeStamp-API" target="_blank"
-          >Time Stamp </a
-        >(Backend)
-      </li>
-      <li>
-        <a
-          href="https://github.com/Shailesh8008/request-header-parser"
-          target="_blank"
-          >Request Header Parser </a
-        >(Backend)
-      </li>
-      <li>
-        <a href="https://github.com/Shailesh8008/url-shortner" target="_blank"
-          >URL Shortener </a
-        >(Backend)
-      </li>
-      <li>
-        <a href="https://github.com/Shailesh8008/file-metadata" target="_blank"
-          >File Metadata </a
-        >(Backend)
-      </li>
-      <li>
-        <a
-          href="https://github.com/Shailesh8008/exercise-tracker"
-          target="_blank"
-          >Excercise Tracker </a
-        >(Backend)
-      </li>
-      <li>
-        <a href="https://countriesxapi.netlify.app/" target="_blank"
-          >Countries-API</a
-        >
-      </li>
-      <li>
-        <a href="https://shailesh8008.github.io/websiteUI2/" target="_blank"
-          >Website UI-2</a
-        >
-      </li>
-      <li>
-        <a href="https://shailesh8008.github.io/websiteUI/" target="_blank"
-          >Website UI-1</a
-        >
-      </li>
-      <li>
-        <a href="https://shailesh8008.github.io/website-ui/" target="_blank"
-          >Website UI</a
-        >
-      </li>
-      <li>
-        <a href="https://shailesh8008.github.io/ui-task2/" target="_blank"
-          >UI Task-2</a
-        >
-      </li>
-      <li>
-        <a href="https://shailesh8008.github.io/ui-task/" target="_blank"
-          >UI Task</a
-        >
-      </li>
-      <li>
-        <a href="https://shailesh8008.github.io/todo-app-ui/" target="_blank"
-          >Todo-App UI</a
-        >
-      </li>
-      <li>
-        <a
-          href="https://shailesh8008.github.io/restaurant-point/"
-          target="_blank"
-          >Restaurant Point</a
-        >
-      </li>
-      <li>
-        <a href="https://shailesh8008.github.io/loginform/" target="_blank"
-          >Login Form UI</a
-        >
-      </li>
-      <li>
-        <a href="https://shailesh8008.github.io/hiring-ui/" target="_blank"
-          >Hiring UI</a
-        >
-      </li>
-      <li>
-        <a href="https://shailesh8008.github.io/css-table-task/" target="_blank"
-          >CSS Table Task UI</a
-        >
-      </li>
-      <li>
-        <a href="https://shailesh8008.github.io/flodesk-task/" target="_blank"
-          >Flodesk Task UI</a
-        >
-      </li>
-      <li>
-        <a href="https://shailesh8008.github.io/card-task/" target="_blank"
-          >Card Task UI</a
-        >
-      </li>
-      <li>
-        <a
-          href="https://shailesh8008.github.io/Shailesh8008.business-development.github.io/"
-          target="_blank"
-          >Business Development UI</a
-        >
-      </li>
-      <li>
-        <a
-          href="https://shailesh8008.github.io/Shailesh8008.portfolio.github.io/"
-          target="_blank"
-          >Portfolio UI</a
-        >
-      </li>
-      <li><a href="/index.html">Root GitHub Pages</a></li>
-    </ol>
+    <main>
+      <div class="frontend">
+        <h3>Frontend</h3>
+        <ol>
+          <li>
+            <a href="https://countriesxapi.netlify.app/" target="_blank"
+              >Countries-API</a
+            >
+          </li>
+          <li>
+            <a href="https://shailesh8008.github.io/websiteUI2/" target="_blank"
+              >Website UI-2</a
+            >
+          </li>
+          <li>
+            <a href="https://shailesh8008.github.io/websiteUI/" target="_blank"
+              >Website UI-1</a
+            >
+          </li>
+          <li>
+            <a href="https://shailesh8008.github.io/website-ui/" target="_blank"
+              >Website UI</a
+            >
+          </li>
+          <li>
+            <a href="https://shailesh8008.github.io/ui-task2/" target="_blank"
+              >UI Task-2</a
+            >
+          </li>
+          <li>
+            <a href="https://shailesh8008.github.io/ui-task/" target="_blank"
+              >UI Task</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://shailesh8008.github.io/todo-app-ui/"
+              target="_blank"
+              >Todo-App UI</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://shailesh8008.github.io/restaurant-point/"
+              target="_blank"
+              >Restaurant Point</a
+            >
+          </li>
+          <li>
+            <a href="https://shailesh8008.github.io/loginform/" target="_blank"
+              >Login Form UI</a
+            >
+          </li>
+          <li>
+            <a href="https://shailesh8008.github.io/hiring-ui/" target="_blank"
+              >Hiring UI</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://shailesh8008.github.io/css-table-task/"
+              target="_blank"
+              >CSS Table Task UI</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://shailesh8008.github.io/flodesk-task/"
+              target="_blank"
+              >Flodesk Task UI</a
+            >
+          </li>
+          <li>
+            <a href="https://shailesh8008.github.io/card-task/" target="_blank"
+              >Card Task UI</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://shailesh8008.github.io/Shailesh8008.business-development.github.io/"
+              target="_blank"
+              >Business Development UI</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://shailesh8008.github.io/Shailesh8008.portfolio.github.io/"
+              target="_blank"
+              >Portfolio UI</a
+            >
+          </li>
+          <li><a href="/index.html">Root GitHub Pages</a></li>
+        </ol>
+      </div>
+      <div>
+        <h3>Backend</h3>
+        <ol>
+          <li>
+            <a
+              href="https://github.com/Shailesh8008/TimeStamp-API"
+              target="_blank"
+              >Time Stamp </a
+            >(Backend)
+          </li>
+          <li>
+            <a
+              href="https://github.com/Shailesh8008/request-header-parser"
+              target="_blank"
+              >Request Header Parser </a
+            >(Backend)
+          </li>
+          <li>
+            <a
+              href="https://github.com/Shailesh8008/url-shortner"
+              target="_blank"
+              >URL Shortener </a
+            >(Backend)
+          </li>
+          <li>
+            <a
+              href="https://github.com/Shailesh8008/file-metadata"
+              target="_blank"
+              >File Metadata </a
+            >(Backend)
+          </li>
+          <li>
+            <a
+              href="https://github.com/Shailesh8008/exercise-tracker"
+              target="_blank"
+              >Excercise Tracker </a
+            >(Backend)
+          </li>
+        </ol>
+      </div>
+    </main>
   </body>
 </html>
